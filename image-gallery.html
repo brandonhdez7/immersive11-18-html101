@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Places to visit in Georgia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* div (with no . and no #)targets a tag */
+        /* #will target an id
+        . will target a class */
+        div{
+            border: 2px dashed red;
+            text-align: center;
+        }
+
+        #top-section{
+            border: 3px solid black;
+        }
+
+        #middle-section{
+        }
+
+        #bottom-section{
+            border: solid 2px yellow
+        }
+        .thumb{
+            width: 15%;
+        }
+        img{
+            width: 1000px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <!-- A wrapper for the entire gallery. the div does nothing other than help us orginize our content -->
+    <div id="gallery-wrapper">
+        <div id="top-section">
+            <h1>A photo gallery made with CSS,Html, a tiny bit of js</h1>
+        </div>
+<!-- an id is like a serial number or vin number can only be used once -->
+        <div id="middle-section">
+<!-- a class is not unique , but group things, can be used more than once -->
+            <img class="thumb" src="./arabia_mnt.jpg" onclick="bigImage.src = this.src" />
+            <img class="thumb" src="./callaway_gardens.jpg"onclick="bigImage.src = this.src"  />
+            <img class="thumb" src="./Etowah_Indian_Mounds.jpg" onclick="bigImage.src = this.src"/>
+            <img class="thumb" src="./prov_state_canyon.jpg" onclick="bigImage.src = this.src" />
+            <img class="thumb" src="./wormsloe.jpg" onclick="bigImage.src = this.src"/>
+        </div>
+
+        <div id="bottom-section">
+            <img src="./prov_state_canyon.jpg" name="bigImage" />
+            
+        </div>
+    </div>    
+    
+</body>
+</html>
