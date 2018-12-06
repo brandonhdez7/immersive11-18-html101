@@ -1,0 +1,382 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: gainsboro;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 150px;
+    height: 43px;
+    background-color:#3b5998;
+}
+
+.left{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    width: 42%;
+}
+
+.left a img{
+    width: 25px;
+    background-color: white;
+    border-radius: 5%;
+    height: 24px;
+}
+.left input{
+    width: 415px;
+    height: 23px;
+
+    border : 0px;
+    z-index: 1;
+}
+
+.search img{
+    position: relative;
+    width: 25px;
+    background-color: white;
+    height: 25px;
+    z-index: 2;
+    right: 30px;
+    top:2px;
+    background-color: whitesmoke;
+
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+    padding-right: 120px;
+    justify-content: space-between;
+  
+}
+
+.right img{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.right a{
+    color: white;
+    text-decoration: none;
+    border-right: 0.1px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 134px;
+    margin-right: 134px;
+    padding-top:15px;
+}
+
+
+.first{
+    width: 180px;
+    border: 1px solid black;
+}
+.porfile{
+    display:flex;
+    flex-direction: column;
+}
+.person{
+    display: flex;
+    font-size: 9px;
+    padding: 10px;
+    font-weight: 400;
+
+}
+.person img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.links{
+    padding: 15px;
+
+}
+.links h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.links h2{
+    font-size: 12px;
+}
+
+
+
+
+.post{
+    height: 152px;
+    border: 1px solid black;
+    width: 500px;
+    margin-bottom: 10px; 
+}
+
+.headlines {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 10px;
+    justify-content: flex-start;
+    background-color: whitesmoke;
+}
+.headlines h3{
+    border-right: 1px solid lightgrey;
+    padding: 4px;
+
+}
+
+
+.post-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+.post-input img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.post-input input{
+    height: 70px;
+    border: 0px; 
+    width: 400px;
+    font-size: 15px;
+}
+
+.post-headlines{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 10px;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+.post-headlines h3{
+    border-radius: 20%;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin: 5px;
+}
+.newsfeed{
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    border-bottom: 10px;
+    background-color: white;
+}
+.post-title{
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+
+}
+.post-title img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.post-image img{
+    width: 500px;
+}
+.post-title h1{
+    font-size: 12px;
+    margin-right: 10px;
+}
+.post-title .shared-post{
+    font-size: 12px;
+    margin-right: 10px;
+
+}
+.detail-name{
+    margin-left: 20px;
+}
+
+.detail-name h1{
+    font-size: 12px;
+    padding-left: 10px;
+    border-left: 1px solid lightgrey;
+}
+.share{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 40px
+}
+.share h1{
+    font-size: 15px;
+}
+.comment{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.comment img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.comment input{
+    width: 425px;
+    height: 35px;
+}
+
+
+
+.last{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.stories{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 300px;
+    background-color: white;
+    height: 300px;
+    margin-bottom: 10px
+    
+}
+.stories-headline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    background-color: white;
+}
+
+.stories-group{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.video-circle1{
+    display:flex;
+    align-items: center;
+    font-size: 7px;
+    padding-bottom: 10px;
+}
+
+.video-circle2{
+    display:flex;
+    align-items: center;
+    font-size: 7px;
+    padding-bottom: 10px;
+}
+.video-circle3{
+    display:flex;
+    align-items: center;
+    font-size: 7px;
+    padding-bottom: 10px;
+}
+
+
+
+.stories-group img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+.stories-title{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+.stories-title h1{
+    font-size: 12px;
+    padding: 5px;
+}
+.person-name1{
+    display:flex;
+    flex-direction: column;
+    font-size: 7px;
+}
+
+
+.birthday{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: white;
+    width: 300px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.birthday h1{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 7px
+}
+
+.watchlist{
+    width: 300px;
+    border: 1px solid black;
+    height: 300px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.watchlist img{
+    width: 70px;
+    height: 50px;
+    padding: 10px;
+}
+
+.person-name1{
+    display: flex;
+    align-items: center;
+}
+.person-name2{
+    display: flex;
+    align-items: center;
+}
+.person-name3{
+    display: flex;
+    align-items: center;
+}
+
+.name1{
+    font-size: 8px;
+}
+
+.ads img{
+    width: 300px;
+    height: 300px;
+
+}
+
+
+
+
+
+
+
