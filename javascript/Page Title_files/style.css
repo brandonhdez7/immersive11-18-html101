@@ -1,0 +1,20 @@
+body{
+    background: url("shutterstock-745709524.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    margin: 
+}
+.time-unit, .time-unit span{
+    display: inline-block;
+    padding: 10px;
+    background-color: ;
+    border-radius: 5px;
+    border: 1px solid white;
+}

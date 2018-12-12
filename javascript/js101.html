@@ -1,0 +1,98 @@
+<!-- scope -->
+<!-- determines what can see a variable -->
+<!-- -blobal
+-has no parent
+-any one can see it aywhere
+-if it belongs to the window, or is defined outside
+of all functions(just inside of a script tag), it is global
+-awesome for small programs or when neccessary
+-dangerous when your programs gets big
+-in python , globals are variables that are all the way to the left
+
+-local 
+-locals variables live inside of functions and are visible and 
+changable only to that function and its child functions -->
+
+
+<!-- <script> 
+    // this is not inside any function, so its a global
+    var iAmGlobal =1;
+    console.log(iAmGlobal);
+    console.log(window.iAmGlobal);
+
+
+    function checkScope(){
+        // in spite of this horrible variable name, it is not a global
+        // its inside of a function, so nobody outside of this fucntion
+        // can see it use it
+        var iAmGlobal = 2;
+        iAmGlobal ++;
+        console.log(iAmGlobal)
+
+        // dont ever, unless you have a very good reason,make a variable inside
+        // a funsction that you have a global for 
+    }
+    checkScope()
+    console.log(iAmGlobal);
+
+
+
+    var a = 1;
+    function child(){
+        var b = 2;
+        console.log(a); //global
+        console.log(b); //local
+        for(var i=0; i<10; i++){
+            a++
+        }
+        function grandChild(){
+            console.log("i am a grandchild, i can see and change my stuff, m parent stuff, and their parent stuff")
+            a++
+            b++
+        }
+        grandChild();
+        console.log(a);
+        console.log(b);
+    }
+    child();
+
+
+    // states of a variable
+    // undeclared - no var x anywhere
+    // -declared - js knows it exist
+    // -init/assigned - not only does it exist, it has a value
+
+</script> -->
+
+<script>
+//     var q = 1;
+//     function p(){
+//         console.log(q) //log global, 1
+//         var q = 3;
+//         console.log(q)
+//     };
+// p();
+
+// <!-- in addition to var, js got a facelift in 2015 added -->
+// <!-- 'let' and 'const' -->
+// let + cosnt= no more var
+// let is a block level variable
+// it lives for as long as the {} its inside of do
+
+
+var i
+for (i=0; i < 10; i++){
+
+}
+console.log(i);
+
+// for(let j = 0; j < 10; j++){
+
+// }
+// console.log(j)
+
+// for(cosnt k = 0; k < 20; k++){
+
+// }
+
+</script>

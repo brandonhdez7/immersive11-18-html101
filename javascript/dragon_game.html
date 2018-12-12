@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #dragon img{
+            width: 500px;
+        }
+    
+    </style>
+    <!-- <style>
+        .instructions{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-between;
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+
+        button{
+            border: 1px solid black;
+            padding: 15px;
+            background-color: burlywood;
+        }
+    
+    </style> -->
+    <script src="dragon_game.js"></script>
+</head>
+<body>
+    <div id="game-wrapper">
+        <div id="dragon">
+            <img src= "foto1.jpg">
+        </div>
+
+        <div id="message">
+            <p>You have encounted the terrible dragon,Roll to fight, 8 or higher defeats it, 7 or lower and you're toast</p>
+        </div>
+
+        <div id="dice">
+            <img src="d1.gif">
+            <img src="d1.gif">
+        </div>
+
+        <div id="roll">
+            <button id="roll-button" onclick="roll()">Fight!</button>
+        </div>
+
+    </div>
+
+
+
+
+
+        <!-- <div id="dragon_game">The Dragon Game:</div>
+
+        <div class="instructions">
+                <button onclick="myFunction()">Fight</button>
+            <h1>or</h1>
+            <button onclick="myFunction()">flee</button>
+        </div> -->   
+</body>
+</html>

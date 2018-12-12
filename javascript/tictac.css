@@ -1,0 +1,57 @@
+body{
+    background-color: azure;
+}
+#board{
+    max-width: 640px;
+    min-width:320px;
+    margin: auto;
+}
+
+.square{
+    background-color: aliceblue; 
+    border: 2px solid #000;
+    width: 185px;
+    height: 185px;
+    outline: none;
+    font-size: 60px;
+    margin-bottom: 5px;
+
+}
+
+.square:hover{
+    background-color: lightgreen;
+}
+
+#message{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+    margin-right: 80px;
+}
+
+.winning-square{
+    background-color: aqua;
+}
+
+#reset_button{
+    text-align: center;
+    margin: 15px 60px 0px 0px;
+}
+#reset_button button{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#comp{
+    text-align: center;
+    margin: 15px 60px 0px 0px;
+}
+#comp button{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
